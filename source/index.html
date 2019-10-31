@@ -92,9 +92,9 @@
         </li>
       </ul>
       <ul class="advantages__toggles slider__toggles">
-        <li class="slider__toggle--active"></li>
-        <li class="slider__toggle"></li>
-        <li class="slider__toggle"></li>
+        <li class="slider__toggle--active">1</li>
+        <li class="slider__toggle">2</li>
+        <li class="slider__toggle">3</li>
       </ul>
     </section>
     <section class="page-main news">
@@ -113,20 +113,22 @@
           </td>
         </tr>
       </table>
-      <button class="news__button">Показать всё</button>
+      <a class="news__button button">Показать всё</a>
     </section>
-    <section class="page-main reviews">
+
+    <section class="page-main reviews slider">
       <h2 class="reviews__title">Отзывы о нас</h2>
-      <ul class="reviews__list">
-        <li class="reviews__item">
+      <p class="reviews__list slider__list">
+        <blockquote class="reviews__item slider__item">
+          <img class="reviews__author-photo" src="" alt="Трэвис Баркер" width="50" height="50">
           <b class="reviews__author">Трэвис Баркер</b>
-          <p class="reviews__message">Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!</p>
-        </li>
-      </ul>
+          <i class="reviews__message">Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!</i>
+        </blockquote>
+      </p>
       <ul class="reviews__toggles slider__toggles">
-        <li class="slider__toggle--active"></li>
-        <li class="slider__toggle"></li>
-        <li class="slider__toggle"></li>
+        <li class="slider__toggle--active">1</li>
+        <li class="slider__toggle">2</li>
+        <li class="slider__toggle">3</li>
       </ul>
     </section>
   </main>
@@ -140,15 +142,25 @@
           г. Санкт-Петербург, ул. Большая Конюшенная 19/8
         </li>
         <li class="contacts__phone">
-          +7 (812) 555-66-66
+          <a class="contacts__button button" href="">+7 (812) 555-66-66</a>
         </li>
-        <li class="contacts__social"><span>VKontakte</span></li>
-        <li class="contacts__social"><span>Instagram</span></li>
-        <li class="contacts__social"><span>Facebook</span></li>
+        <li class="contacts__social">
+          <a class="contacts__social-link" href="">
+            <span>VKontakte</span></li>
+          </a>
+        <li class="contacts__social">
+          <a class="contacts__social-link" href="">
+            <span>Instagram</span></li>
+          </a>
+        <li class="contacts__social">
+          <a class="contacts__social-link" href="">
+            <span>Facebook</span>
+          </a>
+        </li>
       </ul>
-      <p class="contacts__developer">
+      <p class="contacts__copyright copyright">
         <span>Разработано:</span>
-        <span>TNSGRTY666</span>
+        <a class="copyright__button button">TNSGRTY666</a>
       </p>
     </section>
   </footer>
