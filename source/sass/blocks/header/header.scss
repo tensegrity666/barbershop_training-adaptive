@@ -1,0 +1,21 @@
+@import (variables.scss);
+
+.page-header {
+  display: flex;
+  flex-flow: column nowrap;
+  flex-basis: 140px;
+}
+
+.page-header__logo {
+  background-color: $headerColor;
+}
+
+.main-navigation {
+  background-color: $menuColor;
+  @include menuText;
+}
+
+.main-navigation__toggle {
+  background-color: $burgerColor;
+  @include menuText;
+}
