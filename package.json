@@ -1,0 +1,48 @@
+{
+  "name": "Barbershop-adaptive",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "author": "tnsgrty666",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "9.7.x",
+    "beeper": "^2.0.0",
+    "browser-sync": "2.26.x",
+    "gulp": "4.0.x",
+    "gulp-csso": "3.0.x",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "8.0.x",
+    "gulp-posthtml": "^3.0.x",
+    "gulp-rename": "^1.4.x",
+    "gulp-sass": "4.0.x",
+    "gulp-stylelint": "^10.0.0",
+    "gulp-uglify": "3.0.x",
+    "node-normalize-scss": "^8.0.1",
+    "posthtml-include": "^1.2.x",
+    "stylelint": "^11.1.1",
+    "stylelint-config-recess-order": "^2.0.3",
+    "stylelint-config-standard": "^19.0.0"
+  },
+  "scripts": {
+    "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
+    "test": "npm run stylelint && gulp lint"
+  },
+  "browserslist": [
+    "> 1%",
+    "ie >= 8",
+    "edge >= 15",
+    "ie_mob >= 10",
+    "ff >= 45",
+    "chrome >= 45",
+    "safari >= 7",
+    "opera >= 23",
+    "ios >= 7",
+    "android >= 4",
+    "bb >= 10"
+  ],
+  "dependencies": {},
+  "engines": {
+    "node": "12.13"
+  }
+}
