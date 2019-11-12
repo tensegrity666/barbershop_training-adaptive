@@ -1,20 +1,4 @@
-@media (min-width: 320px) {
-  body {
-    background: url(../img/previews/barbershop-index-mobile.jpg) no-repeat 50% 0;
-  }
-}
-
-@media (min-width: 768px) {
-  body {
-    background-image: url(../img/previews/barbershop-index-tablet.jpg) no-repeat 50% 0;
-  }
-}
-
-@media (min-width: 1200px) {
-  body {
-    background-image: url(../img/previews/barbershop-index-desktop.jpg) no-repeat 50% 0;
-  }
-}
 
 html * {
-    background-color: rgba(135, 44, 138, 0.1);
+    background-color: rgba(135, 44, 138, 0.2);
+}
